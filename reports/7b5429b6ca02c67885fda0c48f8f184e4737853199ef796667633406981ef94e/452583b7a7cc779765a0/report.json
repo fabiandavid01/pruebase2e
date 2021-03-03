@@ -1,0 +1,192 @@
+[
+  {
+    "uri": "C:/CODIGO/kraken/pruebase2e/./features/autenticarUsuarioAdministradorNegativo.feature",
+    "id": "login-as-administrator-error",
+    "keyword": "Feature",
+    "name": "Login as administrator Error",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-as-administrator-error;as-a-administrator-user-i-want-log-in-on-administration-site",
+        "keyword": "Scenario",
+        "name": "As a administrator user I want log in on administration site",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          },
+          {
+            "name": "@web",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/web/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4035000
+            }
+          },
+          {
+            "match": {
+              "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26011540800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I navigate to page \"http://localhost:2368/ghost/#/signin/\"",
+            "line": 5,
+            "match": {
+              "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6748152000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "failed",
+                  "error_message": "No such file or directory @ rb_sysopen - ./reports/3e1fbf1912ba3b7acd82b475b8007af168915dc733a409ab5a8b1920550a17d7/screenshots//2b9e792fbc4d92438d80ed5a.png (Errno::ENOENT)\nC:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:89:in `AfterStep'\n././features/autenticarUsuarioAdministradorNegativo.feature:5:in `Given I navigate to page \"http://localhost:2368/ghost/#/signin/\"'",
+                  "duration": 1373900
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having css selector \"#form-group success ember-view\"",
+            "line": 6,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"fd.gil10@uniandes.edu.co\" into input field having id \"#form-group success ember-view\"",
+            "line": 7,
+            "match": {
+              "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:19"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having css selector \"#password ember-text-field gh-input ember-view\"",
+            "line": 8,
+            "match": {
+              "location": "features/web/step_definitions/web_steps.rb:4"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"xxxxxxx\" into input field having id \"#password ember-text-field gh-input ember-view\"",
+            "line": 9,
+            "match": {
+              "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:19"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having id \"#login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view\"",
+            "line": 10,
+            "match": {
+              "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "C:/CODIGO/kraken/KrakenMobile-1.0.7/lib/kraken-mobile/steps/web/kraken_steps.rb:87"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/web/support/app_life_cycle_hooks.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27110700
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
